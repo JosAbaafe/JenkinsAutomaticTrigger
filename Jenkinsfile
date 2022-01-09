@@ -6,5 +6,10 @@ pipeline{
                 echo "Checking Out Git";
             }
         }
+        stage('Build'){
+            steps{
+                echo "Run Build Successful"
+            }
+        }
     }
 }
